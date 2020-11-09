@@ -1,0 +1,15 @@
+.main-div {
+    text-align: center;
+    margin-top: 2%;
+}
+
+#pop-over {
+    border: .5px solid;
+    border-radius: 3px;
+    width: 200px;
+    display:inline-block;
+    visibility: hidden;
+    margin-left:20px;
+    padding:20px;
+    box-shadow: 2px 5px rgba(0,0,0,0.2);
+}
