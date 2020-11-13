@@ -1,0 +1,36 @@
+.elem {
+    display: inline-block;
+    margin-left:30px;
+    border:1px solid green;
+    padding: 40px;
+    transform: translateY(-40%);
+}
+
+#main-body {
+    text-align: center;
+    margin-top: 15%;
+    position: relative;
+}
+
+.arrow {
+    font-size: 36px;
+    display: inline-block;
+    margin-left: 5px
+}
+
+.arrow-container {
+    display: inline-block;
+    position: absolute;
+}
+
+#container {
+    display: inline-block;
+}
+
+.outer-two {
+    height: 85px;
+}
+
+.middle {
+    height: 120px;
+}

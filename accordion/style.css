@@ -1,0 +1,14 @@
+.container {
+    text-align: center;
+}
+
+#issue-container {
+    text-align: left;
+    margin-left: 30%;
+    margin-right:30%;
+}
+
+.pos {
+    position: relative;
+    left:80%;
+}
