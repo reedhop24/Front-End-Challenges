@@ -1,0 +1,80 @@
+body {
+    text-align: center;
+}
+
+#input-div {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.gif-div {
+    margin-bottom: 30px;
+}
+
+#search {
+    margin-left: 10px;
+}
+
+.i-frame {
+    border: 2px #9eedc5;
+    box-shadow: 0 0 10px #9eedc5;
+    border-radius: 5px;
+}
+
+#gif-input {
+    padding: 5px;
+    border: 1px solid rgb(130, 141, 148);
+    border-radius: 3px;
+    outline: none;
+}
+
+#gif-input:focus {
+    border-color: #9eedc5;
+    box-shadow: 0 0 10px #9eedc5;
+}
+
+#search {
+    padding: 5px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid rgb(130, 141, 148);
+    border-radius: 3px;
+    outline: none;
+}
+
+#search:hover {
+    border-color: #9eedc5;
+    box-shadow: 0 0 10px #9eedc5;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .i-frame {
+        width: 200px;
+        height: 100px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .i-frame {
+        width: 400px;
+        height: 200px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .i-frame {
+        width: 550px;
+        height: 300px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .i-frame {
+        width: 700px;
+        height: 350px;
+    }
+}

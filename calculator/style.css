@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+#calculator {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    letter-spacing: 20px;
+    font-size: 2rem;
+}
+
+td {
+    border: 2px solid;
+    text-align: right;
+    vertical-align: middle;
+    height: 50px;
+    width: 70px;
+    text-align: center;
+    font-size: 60px;
+    cursor:pointer;
+}
+
+td:hover {
+    background-color: black;
+    color: white;
+}
